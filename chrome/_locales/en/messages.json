@@ -1,0 +1,20 @@
+{
+  "ext_name": {
+    "message": "YouTube AdBlock - Free AD Removal"
+  },
+  "ext_description": {
+    "message": "The only working & ethical solution to remove ads from YouTube™ videos after latest security measures."
+  },
+  "ext_title": {
+    "message": "YouTube AdBlock"
+  },
+  "ext_configuration": {
+    "message": "Configuration"
+  },
+  "ext_switch_enable": {
+    "message": "Enable ?"
+  },
+  "ext_information": {
+    "message": "YouTube AdBlock doesn't block ads, but removes or plays them very quickly so as not to disturb you."
+  }
+}

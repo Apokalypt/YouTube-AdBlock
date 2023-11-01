@@ -1,0 +1,20 @@
+{
+  "ext_name": {
+    "message": "YouTube AdBlock - Suppression gratuite des pubs"
+  },
+  "ext_description": {
+    "message": "La seule solution efficace et éthique pour supprimer les publicités des vidéos YouTube™ après les dernières mesures de sécurité."
+  },
+  "ext_title": {
+    "message": "YouTube AdBlock"
+  },
+  "ext_configuration": {
+    "message": "Configuration"
+  },
+  "ext_switch_enable": {
+    "message": "Activer ?"
+  },
+  "ext_information": {
+    "message": "YouTube AdBlock ne bloque pas les pubs mais les supprime ou les joue très rapidement pour ne pas vous déranger."
+  }
+}

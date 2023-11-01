@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_ext_name__",
+  "short_name": "YTB AdBlock",
+  "description": "__MSG_ext_description__",
+  "version": "1.0.0",
+  "icons": {
+    "128": "icons/logo_128.png"
+  },
+  "author": "contact@apokalypt.fr",
+  "default_locale": "en",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Manage configuration",
+    "default_action": {
+      "128": "icons/logo_128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "youtube_ads_skip.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "storage"
+  ]
+}
